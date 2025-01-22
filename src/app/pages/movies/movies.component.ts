@@ -4,7 +4,6 @@ import { InfiniteScrollModule } from "ngx-infinite-scroll";
 import { MoviesService } from '../../services/movies.service';
 import { Movie } from '../../models/movie';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
-import { AsyncPipe } from '@angular/common';
 
 @Component({
   selector: 'app-movies',
