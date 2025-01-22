@@ -1,5 +1,6 @@
 {
-  "name": "movies-app",
+  "name": "angular-movie",
+  "homepage": "https://usnightowl.github.io/angular-movie",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

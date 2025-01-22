@@ -41,7 +41,7 @@ jobs:
         run: npm run build
       - name: Create 404.html
         run: |
-          cp dist/movies-app/browser/index.html dist/movies-app/browser/404.html
+          cp dist/angular-movie/browser/index.html dist/angular-movie/browser/404.html
       - name: Rename dist to docs
         run: mv dist docs
       - name: Setup Pages
