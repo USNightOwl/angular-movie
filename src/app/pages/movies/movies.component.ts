@@ -9,7 +9,7 @@ import { AsyncPipe } from '@angular/common';
 @Component({
   selector: 'app-movies',
   standalone: true,
-  imports: [AsyncPipe, MovieComponent, InfiniteScrollModule],
+  imports: [MovieComponent, InfiniteScrollModule],
   templateUrl: './movies.component.html',
   styleUrl: './movies.component.css'
 })
